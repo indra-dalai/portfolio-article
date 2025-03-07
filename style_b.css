@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px; 
+  line-height: 1.5;
+}
+
+/* container for content */
+#content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.75em;
+  color: #333333;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: rgb(91, 91, 91);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+#byline {
+  font-size: 1em;
+  margin: 15px 0;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* flourish viz */
+.flourish-embed {
+  width: 100%;
+  margin: 25px 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling (from claude.ai) */
+}
+
+/* Fix for iframe sizing (from claude.ai) */
+.flourish-embed iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* methodology block */
+.methodology-block {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.methodology-block h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 19px;
+}
+
+.methodology-block p {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+a {
+  color: aquamarine;
+  word-break: break-word; /* Prevents long URLs from breaking layout (from claude.ai) */
+}
+
+/* Responsive styles (from claude.ai) */
+/* Desktop styles (minimum width 768px) */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  
+  #content {
+    width: 66%;
+    padding: 30px;
+  }
+  
+  h1 {
+    font-size: 2.25em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  .methodology-block h3 {
+    font-size: 1.3em;
+  }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 375px) {
+  body {
+    font-size: 15px;
+  }
+  
+  #content {
+    padding: 12px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  h2 {
+    font-size: 1.1em;
+  }
+}
