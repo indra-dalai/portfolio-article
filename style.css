@@ -79,6 +79,7 @@ a {
   word-break: break-word; /* Prevents long URLs from breaking layout (from claude.ai) */
 }
 
+/* used claude.ai to help with responsive design on mobile devices  */
 /* Responsive styles (from claude.ai) */
 /* Desktop styles (minimum width 768px) */
 @media screen and (min-width: 768px) {
